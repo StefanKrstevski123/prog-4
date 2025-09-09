@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.31)
+project(prog_4)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(prog_4 adjlist.cpp)
+add_executable(matrix_run  matrica.cpp)
+add_executable(djikstra_run djikstra.cpp)
+
