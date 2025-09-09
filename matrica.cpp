@@ -17,7 +17,7 @@ void printMatric(const vector<vector<int>>& adjMatric) {
 }
 
 int main() {
-    int V = 6;
+    int V = 7;
     vector<vector<int>> adjMatric(V, vector<int>(V, 0));
 
     addEdge(adjMatric, 0, 1);
