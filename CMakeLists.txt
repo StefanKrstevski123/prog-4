@@ -6,4 +6,5 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(prog_4 adjlist.cpp)
 add_executable(matrix_run  matrica.cpp)
 add_executable(djikstra_run djikstra.cpp)
-
+add_executable(bellmand belmandford.cpp)
+add_executable(gen generator.cpp)
