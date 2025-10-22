@@ -9,11 +9,10 @@ add_executable(djikstra_run djikstra.cpp)
 add_executable(bellmand belmandford.cpp)
 add_executable(gen generator.cpp)
 add_executable(matrixf matrixfloyd.cpp)
-add_executable(adjf adjfloyd.cpp
-        fordaug.cpp
-        edmond.cpp
-        "edmond aug.cpp"
-        dininc.cpp
-)
+add_executable(adjf adjfloyd.cpp)
 add_executable(max uamaxflow.cpp)
 add_executable(ford fordful.cpp)
+add_executable(augf fordaug.cpp)
+add_executable(edd edmond.cpp)
+add_executable(auge edmond aug.cpp)
+add_executable(din   dininc.cpp)
