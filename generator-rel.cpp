@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 
-using namespace std;
+using namespace std;/s
 
 void dfs(int node, vector<vector<pair<int,int>>>& G, vector<bool>& visited)
 {
