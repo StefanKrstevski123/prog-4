@@ -1,7 +1,3 @@
-//
-// Program created by Stefan Krstevski on 12/7/2025
-//
-
 #include <iostream>
 #include <fstream>
 #include <string>
