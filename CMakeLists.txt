@@ -42,3 +42,6 @@ add_executable(spojjj
 add_executable(rabin-karp
         "string-matching/Rabin-Karp.cpp"
 )
+
+add_executable(trieen string-matching/trie_en.cpp)
+add_executable(triemk string-matching/trie_mk.cpp)
