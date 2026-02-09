@@ -45,3 +45,5 @@ add_executable(rabin-karp
 
 add_executable(trieen string-matching/trie_en.cpp)
 add_executable(triemk string-matching/trie_mk.cpp)
+add_executable(myint myinteger.cpp)
+add_executable(myint2 myinteger2.cpp)
